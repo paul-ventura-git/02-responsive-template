@@ -57,7 +57,7 @@ body {
 
 .my-row {
   display: flex;
-  flex-direction: row;
+  /*flex-direction: row;*/
 }
 
 .my-col {
@@ -78,10 +78,14 @@ body {
 }
 
 .main-content {
-  flex: 1;
-  justify-content: space-around;
+
 
   background-color: lightcoral;
+}
+
+.articulo {
+  padding: 2rem;
+  border: 1px solid #ddd;
 }
 
 .intro {
@@ -116,7 +120,7 @@ body {
 }
 
 /* 📱 Propiedades responsive. Dispositivos de hasta 768px de ancho */
-@media (max-width: 768px) { 
+@media (max-width: 600px) { 
   .header {
     flex-direction: column;
     align-items: flex-start;
@@ -130,18 +134,13 @@ body {
   .intro p {
     font-size: 1rem;
   }
-}
 
-@media (max-width: 480px) {
-  .header h1 {
-    font-size: 1.2rem;
+  .my-row {
+    flex-direction: col;
   }
 
-  .btn {
-    width: 100%;
-  }
-
-  .card {
-    padding: 1rem;
+  .main {
+    padding-right: 0vw;
+    padding-left: 0vw;
   }
 }
