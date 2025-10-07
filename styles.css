@@ -73,7 +73,8 @@ body {
 .sidebar {
   min-width: 20vw;
   color: white;
-  background-color: #004080
+  background-color: #004080;
+  padding: 2rem;
 }
 
 .contenido-articulos {
@@ -99,6 +100,16 @@ body {
   padding: 0.75rem 1.5rem;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.btn-sidebar {
+  background-color: white;
+  color: #004080;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 2rem;
 }
 
 .btn:hover {
