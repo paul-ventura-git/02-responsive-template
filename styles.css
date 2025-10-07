@@ -68,7 +68,6 @@ body {
 
 .columna-doble {
   min-width: 40vw;
-  background-color: lightblue;
 }
 
 .sidebar {
@@ -77,10 +76,8 @@ body {
   background-color: #004080
 }
 
-.main-content {
+.contenido-articulos {
 
-
-  background-color: lightcoral;
 }
 
 .articulo {
@@ -89,8 +86,10 @@ body {
 }
 
 .intro {
+  flex: 1;
   text-align: center;
   margin-bottom: 2rem;
+  padding: 2rem;
 }
 
 .btn {
